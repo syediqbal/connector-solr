@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="connectorModule"/>
+	<classpathentry exported="true" kind="src" path="/teiid-api"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="/home/student/.m2/repository/javax/resource/connector-api/1.5/connector-api-1.5.jar" sourcepath="/home/student/.m2/repository/javax/resource/connector-api/1.5/connector-api-1.5-sources.jar">
+		<attributes>
+			<attribute name="maven.groupId" value="javax.resource"/>
+			<attribute name="maven.artifactId" value="connector-api"/>
+			<attribute name="maven.version" value="1.5"/>
+			<attribute name="maven.scope" value="provided"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="/home/student/.m2/repository/org/apache/solr/solr-solrj/4.5.0/solr-solrj-4.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/student/.m2/repository/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/student/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/student/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/student/.m2/repository/org/noggit/noggit/0.5/noggit-0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/student/.m2/repository/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/student/.m2/repository/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/student/.m2/repository/org/apache/httpcomponents/httpmime/4.2.3/httpmime-4.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/student/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/student/.m2/repository/org/codehaus/woodstox/wstx-asl/3.2.7/wstx-asl-3.2.7.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/translator-solr"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
