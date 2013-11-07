@@ -27,5 +27,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="/translator-solr"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/home/student/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
