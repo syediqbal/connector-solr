@@ -5,10 +5,10 @@
   	<eis-type>Teiid Connector</eis-type>
   	<resourceadapter-version>1.0</resourceadapter-version>                                  
   	<resourceadapter>
-  			<resourceadapter-class>org.teiid.resource.adaptor.solr.SolrResourceAdapter</resourceadapter-class>
+  			<resourceadapter-class>org.teiid.resource.adapter.solr.SolrResourceAdapter</resourceadapter-class>
 		<outbound-resourceadapter>
 			<connection-definition>
-				<managedconnectionfactory-class>org.teiid.resource.adaptor.solr.SolrManagedConnectionFactory</managedconnectionfactory-class>
+				<managedconnectionfactory-class>org.teiid.resource.adapter.solr.SolrManagedConnectionFactory</managedconnectionfactory-class>
 
 				<config-property>
 					<description>{$display:"URL of the Solr server",$required:"true",$defaultValue="null"}
